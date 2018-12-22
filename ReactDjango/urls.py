@@ -16,10 +16,18 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 from django.views.generic import TemplateView
+from . import views
+
+from rest_framework import routers
+#routers registered needed for Restful API calls
+router = routers.DefaultRouter()
+router.register('items', views.ItemViewAPI)
+
+
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('ShoppingList.urls')),
-    #re_path('.*', TemplateView.as_view(template_name='index.html')),
-
+    path('api/',include(router.urls)),
+    re_path('.*', TemplateView.as_view(template_name='index.html')),
+    #path('',views.HomePage,name='home' ),
 ]
