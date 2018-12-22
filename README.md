@@ -10,11 +10,17 @@ API Used: Django Rest Framework
 API Tool: Fetch
 
 Functionality:
+</br>
 <b>Some CRUD operations such as:
+ </br>
   *<i>Create (complete and instantaneous due to redux integration)</i>
+  </br>
   *<i>Refresh (dynamic SPA)<i> 
+ </br>
   *<i>Update (TODO)</i>
+ </br>
   *<i>Delete (complete)</i></b>
+  </br>
 Main Page:
  </br>
 ![Alt text](https://github.com/DanielLopezCS/Django-React-ShoppingList/blob/version-FINAL/thumbnails/MainPage.png "Shopping List SPA")
