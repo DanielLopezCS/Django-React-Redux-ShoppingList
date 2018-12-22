@@ -6,8 +6,8 @@ I focused on making the app simple but also touch on all the recent things ive l
 the React/Redux front end with the Django back end. For this project Django only took care of the models and</br>
 React took care of everything else as it is a simple app. As for the CSS Framework I used Semantic-UI-React.
 
-API Used: Django Rest Framework
-API Tool: Fetch
+API Used: <i>Django Rest Framework</i></br>
+API Tool: <i>Fetch</i>
 
 Functionality:
 </br>
